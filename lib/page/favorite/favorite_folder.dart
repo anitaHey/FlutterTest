@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/card_style.dart';
 import 'package:flutterapp/data/user_data.dart';
 
+// Folder create in collection when user add the classify folder.
 class FavoriteFolder extends StatelessWidget {
   User currentUser = Users.getInstance().listUser.elementAt(0);
   String folder_name;

@@ -1,3 +1,4 @@
+// Simple c;ass for user data.
 class User {
   int id;
   String name;

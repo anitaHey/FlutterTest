@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// A page when user click "account" in bottomNavigationBar.
 class AccountPage extends StatefulWidget {
   AccountPage({Key key}) : super(key: key);
 

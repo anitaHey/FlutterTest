@@ -1,3 +1,4 @@
+// Simple c;ass for place data.
 class PlaceItem {
   final int id;
   final String title;

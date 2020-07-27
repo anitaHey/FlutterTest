@@ -4,6 +4,8 @@ import 'package:flutterapp/card_style.dart';
 import 'package:flutterapp/data/user_data.dart';
 import 'package:flutterapp/page/favorite/favorite_folder.dart';
 
+// Collection page when user click "favorite" in bottomNavigationBar.
+// It will list all of the collected viewpoints.
 class FavoritePage extends StatefulWidget {
   FavoritePage({Key key}) : super(key: key);
 

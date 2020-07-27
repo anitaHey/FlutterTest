@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/data/place_data.dart';
 import 'package:flutterapp/page/search/place_detail.dart';
 
+// A card which display viewpoint data in the list.
 class CardStyle extends StatelessWidget {
   List<PlaceItem> listItems = PlaceItems.getInstance().listItems;
   PlaceItem current_place;

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/page/search/search_result.dart';
 import 'package:flutterapp/page/search/search_delegate.dart';
 
+// Searching page when user click "search" in bottomNavigationBar.
+// It will list all of the viewpoints and user can search for it.
 class SearchPage extends StatefulWidget {
   SearchPage({Key key}) : super(key: key);
 
@@ -19,7 +21,7 @@ class _SearchPageState extends State<SearchPage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Container(width: 32.0, height: 0.0),
-              Text('景點搜尋'), // 2nd wrap your widget in Center
+              Text('景點搜尋'),
               IconButton(
                   icon: new Icon(
                     Icons.search,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/data/place_data.dart';
 import 'package:flutterapp/card_style.dart';
 
+// SearchDelegate when user click the search icon.
 class SearchPageDelegate extends SearchDelegate {
   List<PlaceItem> listItems = PlaceItems.getInstance().listItems;
   List<int> suggestList = new List<int>();
@@ -33,7 +34,7 @@ class SearchPageDelegate extends SearchDelegate {
   }
 
   @override
-  Widget buildResults(BuildContext context) { // 搜尋結果
+  Widget buildResults(BuildContext context) {
     return SingleChildScrollView(
       child: new Column(
         children: <Widget>[

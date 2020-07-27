@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/data/place_data.dart';
 import 'package:flutterapp/card_style.dart';
 
+// List all of the viewpoints.
 class SearchResult extends StatefulWidget {
   SearchResult({Key key}) : super(key: key);
 

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/data/place_data.dart';
 import 'package:flutterapp/data/user_data.dart';
 
+// Page which will display viewpoint detail.
+// Add the collect feature, and can classify the collections.
 class PlaceDetail extends StatefulWidget {
   int placeId;
   PlaceDetail({Key key, this.placeId}) : super(key: key);
@@ -50,6 +52,7 @@ class _PlaceDetailState extends State<PlaceDetail> {
     );
   }
 
+  // Change icon when user click it to favorite.
   Widget place_favorite() {
     return (currentUser.favorite.containsKey(place_id))
         ? Icon(
@@ -128,6 +131,7 @@ class _PlaceDetailState extends State<PlaceDetail> {
     );
   }
 
+  // Add a folder to collection.
   Future<void> add_folder(BuildContext context) {
     final TextEditingController folderController = new TextEditingController();
 
